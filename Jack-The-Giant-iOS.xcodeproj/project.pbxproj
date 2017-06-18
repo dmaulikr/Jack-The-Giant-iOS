@@ -50,6 +50,7 @@
 		A7270F921EF72AC700A45483 /* Options Button.png in Resources */ = {isa = PBXBuildFile; fileRef = A7270F711EF72AC700A45483 /* Options Button.png */; };
 		A7270F931EF72AC700A45483 /* Quit Button.png in Resources */ = {isa = PBXBuildFile; fileRef = A7270F721EF72AC700A45483 /* Quit Button.png */; };
 		A7270F941EF72AC700A45483 /* Start Game Button.png in Resources */ = {isa = PBXBuildFile; fileRef = A7270F731EF72AC700A45483 /* Start Game Button.png */; };
+		A7270F971EF72D2000A45483 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A7270F961EF72D2000A45483 /* GameplayScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,7 @@
 		A7270F711EF72AC700A45483 /* Options Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Options Button.png"; sourceTree = "<group>"; };
 		A7270F721EF72AC700A45483 /* Quit Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quit Button.png"; sourceTree = "<group>"; };
 		A7270F731EF72AC700A45483 /* Start Game Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Game Button.png"; sourceTree = "<group>"; };
+		A7270F961EF72D2000A45483 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				A7270F131EF7299700A45483 /* Jack-The-Giant-iOS */,
+				A7270F951EF72CE900A45483 /* Scenes */,
 				A7270F481EF72A1900A45483 /* Assets */,
 				A7270F2E1EF7299700A45483 /* Jack-The-Giant-iOSTests */,
 				A7270F391EF7299700A45483 /* Jack-The-Giant-iOSUITests */,
@@ -321,6 +324,14 @@
 			path = "3 - Main Menu Buttons";
 			sourceTree = "<group>";
 		};
+		A7270F951EF72CE900A45483 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A7270F961EF72D2000A45483 /* GameplayScene.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -453,6 +464,7 @@
 				A7270F7E1EF72AC700A45483 /* blow.ttf in Resources */,
 				A7270F821EF72AC700A45483 /* Life Sound.wav in Resources */,
 				A7270F201EF7299700A45483 /* Main.storyboard in Resources */,
+				A7270F971EF72D2000A45483 /* GameplayScene.sks in Resources */,
 				A7270F7B1EF72AC700A45483 /* Cloud 2.png in Resources */,
 				A7270F851EF72AC700A45483 /* Menu BG.png in Resources */,
 				A7270F911EF72AC700A45483 /* Music On Button.png in Resources */,
