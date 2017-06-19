@@ -51,6 +51,16 @@
 		A7270F931EF72AC700A45483 /* Quit Button.png in Resources */ = {isa = PBXBuildFile; fileRef = A7270F721EF72AC700A45483 /* Quit Button.png */; };
 		A7270F941EF72AC700A45483 /* Start Game Button.png in Resources */ = {isa = PBXBuildFile; fileRef = A7270F731EF72AC700A45483 /* Start Game Button.png */; };
 		A7270F971EF72D2000A45483 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A7270F961EF72D2000A45483 /* GameplayScene.sks */; };
+		A7270F9B1EF7ED9300A45483 /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7270F9A1EF7ED9300A45483 /* GameplayScene.swift */; };
+		A7270FA91EF7EF0900A45483 /* Player 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A7270FA11EF7EF0900A45483 /* Player 1.png */; };
+		A7270FAA1EF7EF0900A45483 /* Player 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A7270FA21EF7EF0900A45483 /* Player 2.png */; };
+		A7270FAB1EF7EF0900A45483 /* Player 3.png in Resources */ = {isa = PBXBuildFile; fileRef = A7270FA31EF7EF0900A45483 /* Player 3.png */; };
+		A7270FAC1EF7EF0900A45483 /* Player 4.png in Resources */ = {isa = PBXBuildFile; fileRef = A7270FA41EF7EF0900A45483 /* Player 4.png */; };
+		A7270FAD1EF7EF0900A45483 /* Player 5.png in Resources */ = {isa = PBXBuildFile; fileRef = A7270FA51EF7EF0900A45483 /* Player 5.png */; };
+		A7270FAE1EF7EF0900A45483 /* Player 6.png in Resources */ = {isa = PBXBuildFile; fileRef = A7270FA61EF7EF0900A45483 /* Player 6.png */; };
+		A7270FAF1EF7EF0900A45483 /* Player 7.png in Resources */ = {isa = PBXBuildFile; fileRef = A7270FA71EF7EF0900A45483 /* Player 7.png */; };
+		A7270FB01EF7EF0900A45483 /* Player 8.png in Resources */ = {isa = PBXBuildFile; fileRef = A7270FA81EF7EF0900A45483 /* Player 8.png */; };
+		A7270FB31EF7EFDB00A45483 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7270FB21EF7EFDB00A45483 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +131,16 @@
 		A7270F721EF72AC700A45483 /* Quit Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quit Button.png"; sourceTree = "<group>"; };
 		A7270F731EF72AC700A45483 /* Start Game Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Game Button.png"; sourceTree = "<group>"; };
 		A7270F961EF72D2000A45483 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
+		A7270F9A1EF7ED9300A45483 /* GameplayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
+		A7270FA11EF7EF0900A45483 /* Player 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 1.png"; sourceTree = "<group>"; };
+		A7270FA21EF7EF0900A45483 /* Player 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 2.png"; sourceTree = "<group>"; };
+		A7270FA31EF7EF0900A45483 /* Player 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 3.png"; sourceTree = "<group>"; };
+		A7270FA41EF7EF0900A45483 /* Player 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 4.png"; sourceTree = "<group>"; };
+		A7270FA51EF7EF0900A45483 /* Player 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 5.png"; sourceTree = "<group>"; };
+		A7270FA61EF7EF0900A45483 /* Player 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 6.png"; sourceTree = "<group>"; };
+		A7270FA71EF7EF0900A45483 /* Player 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 7.png"; sourceTree = "<group>"; };
+		A7270FA81EF7EF0900A45483 /* Player 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 8.png"; sourceTree = "<group>"; };
+		A7270FB21EF7EFDB00A45483 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				A7270F131EF7299700A45483 /* Jack-The-Giant-iOS */,
+				A7270F981EF7ED2B00A45483 /* Game Classes */,
 				A7270F951EF72CE900A45483 /* Scenes */,
 				A7270F481EF72A1900A45483 /* Assets */,
 				A7270F2E1EF7299700A45483 /* Jack-The-Giant-iOSTests */,
@@ -209,6 +230,7 @@
 			children = (
 				A7270F491EF72AC700A45483 /* 1 - Pause Panel And Buttons */,
 				A7270F4E1EF72AC700A45483 /* 2 - Collectables */,
+				A7270FA01EF7EF0900A45483 /* 3 - Player */,
 				A7270F511EF72AC700A45483 /* 4 - Clouds */,
 				A7270F561EF72AC700A45483 /* 5 - Fonts */,
 				A7270F581EF72AC700A45483 /* 6 - Music */,
@@ -332,6 +354,46 @@
 			name = Scenes;
 			sourceTree = "<group>";
 		};
+		A7270F981EF7ED2B00A45483 /* Game Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7270FB11EF7EFB500A45483 /* Player Class */,
+				A7270F991EF7ED6700A45483 /* Scene Classes */,
+			);
+			name = "Game Classes";
+			sourceTree = "<group>";
+		};
+		A7270F991EF7ED6700A45483 /* Scene Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7270F9A1EF7ED9300A45483 /* GameplayScene.swift */,
+			);
+			name = "Scene Classes";
+			sourceTree = "<group>";
+		};
+		A7270FA01EF7EF0900A45483 /* 3 - Player */ = {
+			isa = PBXGroup;
+			children = (
+				A7270FA11EF7EF0900A45483 /* Player 1.png */,
+				A7270FA21EF7EF0900A45483 /* Player 2.png */,
+				A7270FA31EF7EF0900A45483 /* Player 3.png */,
+				A7270FA41EF7EF0900A45483 /* Player 4.png */,
+				A7270FA51EF7EF0900A45483 /* Player 5.png */,
+				A7270FA61EF7EF0900A45483 /* Player 6.png */,
+				A7270FA71EF7EF0900A45483 /* Player 7.png */,
+				A7270FA81EF7EF0900A45483 /* Player 8.png */,
+			);
+			path = "3 - Player";
+			sourceTree = "<group>";
+		};
+		A7270FB11EF7EFB500A45483 /* Player Class */ = {
+			isa = PBXGroup;
+			children = (
+				A7270FB21EF7EFDB00A45483 /* Player.swift */,
+			);
+			name = "Player Class";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -443,10 +505,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7270F941EF72AC700A45483 /* Start Game Button.png in Resources */,
+				A7270FAF1EF7EF0900A45483 /* Player 7.png in Resources */,
 				A7270F741EF72AC700A45483 /* Pause Menu.png in Resources */,
 				A7270F8E1EF72AC700A45483 /* Medium Button.png in Resources */,
 				A7270F761EF72AC700A45483 /* Resume Button.png in Resources */,
 				A7270F8C1EF72AC700A45483 /* Easy Button.png in Resources */,
+				A7270FAB1EF7EF0900A45483 /* Player 3.png in Resources */,
 				A7270F781EF72AC700A45483 /* Coin.png in Resources */,
 				A7270F931EF72AC700A45483 /* Quit Button.png in Resources */,
 				A7270F831EF72AC700A45483 /* Game BG.png in Resources */,
@@ -458,12 +522,15 @@
 				A7270F791EF72AC700A45483 /* Life.png in Resources */,
 				A7270F7F1EF72AC700A45483 /* Background music.mp3 in Resources */,
 				A7270F921EF72AC700A45483 /* Options Button.png in Resources */,
+				A7270FAE1EF7EF0900A45483 /* Player 6.png in Resources */,
+				A7270FAD1EF7EF0900A45483 /* Player 5.png in Resources */,
 				A7270F881EF72AC700A45483 /* Ready.png in Resources */,
 				A7270F801EF72AC700A45483 /* Click Sound.wav in Resources */,
 				A7270F771EF72AC700A45483 /* Show Score.png in Resources */,
 				A7270F7E1EF72AC700A45483 /* blow.ttf in Resources */,
 				A7270F821EF72AC700A45483 /* Life Sound.wav in Resources */,
 				A7270F201EF7299700A45483 /* Main.storyboard in Resources */,
+				A7270FAC1EF7EF0900A45483 /* Player 4.png in Resources */,
 				A7270F971EF72D2000A45483 /* GameplayScene.sks in Resources */,
 				A7270F7B1EF72AC700A45483 /* Cloud 2.png in Resources */,
 				A7270F851EF72AC700A45483 /* Menu BG.png in Resources */,
@@ -478,7 +545,10 @@
 				A7270F7A1EF72AC700A45483 /* Cloud 1.png in Resources */,
 				A7270F861EF72AC700A45483 /* Options BG.png in Resources */,
 				A7270F871EF72AC700A45483 /* Pause Button.png in Resources */,
+				A7270FAA1EF7EF0900A45483 /* Player 2.png in Resources */,
 				A7270F191EF7299700A45483 /* Actions.sks in Resources */,
+				A7270FA91EF7EF0900A45483 /* Player 1.png in Resources */,
+				A7270FB01EF7EF0900A45483 /* Player 8.png in Resources */,
 				A7270F8F1EF72AC700A45483 /* Highscore Button.png in Resources */,
 				A7270F8A1EF72AC700A45483 /* Back Button.png in Resources */,
 			);
@@ -505,8 +575,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7270F9B1EF7ED9300A45483 /* GameplayScene.swift in Sources */,
 				A7270F1B1EF7299700A45483 /* GameScene.swift in Sources */,
 				A7270F1D1EF7299700A45483 /* GameViewController.swift in Sources */,
+				A7270FB31EF7EFDB00A45483 /* Player.swift in Sources */,
 				A7270F151EF7299700A45483 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
