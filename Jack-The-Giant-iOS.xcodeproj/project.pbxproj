@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A71D110B1EFBE73000B1CD75 /* Player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A71D110A1EFBE73000B1CD75 /* Player.atlas */; };
 		A7270F151EF7299700A45483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7270F141EF7299700A45483 /* AppDelegate.swift */; };
 		A7270F171EF7299700A45483 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A7270F161EF7299700A45483 /* GameScene.sks */; };
 		A7270F191EF7299700A45483 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A7270F181EF7299700A45483 /* Actions.sks */; };
@@ -81,6 +82,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A71D110A1EFBE73000B1CD75 /* Player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Player.atlas; sourceTree = "<group>"; };
 		A7270F111EF7299700A45483 /* Jack-The-Giant-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jack-The-Giant-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7270F141EF7299700A45483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7270F161EF7299700A45483 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -228,9 +230,10 @@
 		A7270F481EF72A1900A45483 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				A71D110A1EFBE73000B1CD75 /* Player.atlas */,
+				A7270FA01EF7EF0900A45483 /* Player */,
 				A7270F491EF72AC700A45483 /* 1 - Pause Panel And Buttons */,
 				A7270F4E1EF72AC700A45483 /* 2 - Collectables */,
-				A7270FA01EF7EF0900A45483 /* 3 - Player */,
 				A7270F511EF72AC700A45483 /* 4 - Clouds */,
 				A7270F561EF72AC700A45483 /* 5 - Fonts */,
 				A7270F581EF72AC700A45483 /* 6 - Music */,
@@ -371,7 +374,7 @@
 			name = "Scene Classes";
 			sourceTree = "<group>";
 		};
-		A7270FA01EF7EF0900A45483 /* 3 - Player */ = {
+		A7270FA01EF7EF0900A45483 /* Player */ = {
 			isa = PBXGroup;
 			children = (
 				A7270FA11EF7EF0900A45483 /* Player 1.png */,
@@ -383,6 +386,7 @@
 				A7270FA71EF7EF0900A45483 /* Player 7.png */,
 				A7270FA81EF7EF0900A45483 /* Player 8.png */,
 			);
+			name = Player;
 			path = "3 - Player";
 			sourceTree = "<group>";
 		};
@@ -516,6 +520,7 @@
 				A7270F831EF72AC700A45483 /* Game BG.png in Resources */,
 				A7270F751EF72AC700A45483 /* Quit Button 2.png in Resources */,
 				A7270F7D1EF72AC700A45483 /* Dark Cloud.png in Resources */,
+				A71D110B1EFBE73000B1CD75 /* Player.atlas in Resources */,
 				A7270F891EF72AC700A45483 /* Score.png in Resources */,
 				A7270F8B1EF72AC700A45483 /* Check Sign.png in Resources */,
 				A7270F7C1EF72AC700A45483 /* Cloud 3.png in Resources */,
@@ -830,6 +835,7 @@
 				A7270F411EF7299700A45483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7270F421EF7299700A45483 /* Build configuration list for PBXNativeTarget "Jack-The-Giant-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -838,6 +844,7 @@
 				A7270F441EF7299700A45483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7270F451EF7299700A45483 /* Build configuration list for PBXNativeTarget "Jack-The-Giant-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -846,6 +853,7 @@
 				A7270F471EF7299700A45483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
