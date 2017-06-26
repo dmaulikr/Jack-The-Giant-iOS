@@ -50,9 +50,10 @@ class Player: SKSpriteNode {
     func movePlayer(moveLeft: Bool) {
         
         if moveLeft {
-            self.position.x = self.position.x - 7
+            self.position.x -= 7
+            
         } else {
-            self.position.x = self.position.x + 7
+            self.position.x += 7
         }
         
     }

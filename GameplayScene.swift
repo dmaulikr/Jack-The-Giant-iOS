@@ -10,6 +10,8 @@ import SpriteKit
 
 class GameplayScene: SKScene {
     
+    var mainCamera: SKCameraNode?
+    
     var player: Player?
     
     var canMove = false
@@ -18,16 +20,15 @@ class GameplayScene: SKScene {
     var center: CGFloat?
     
     override func didMove(to view: SKView) {
-        center = (self.scene?.size.width)! / (self.scene?.size.height)!
-        
-        player = self.childNode(withName: "Player") as? Player//!
-        player?.initializePlayerAndAnimations()
+        initializeVariables()
         
     
     }
     
     override func update(_ currentTime: TimeInterval) {
+        moveCamera()
         managePlayer()
+        
         
     }
     
@@ -55,11 +56,24 @@ class GameplayScene: SKScene {
         player?.stopPlayerAnimation()
     }
 
+    func initializeVariables() {
+        center = (self.scene?.size.width)! / (self.scene?.size.height)!
+        
+        player = self.childNode(withName: "Player") as? Player!
+        player?.initializePlayerAndAnimations()
+        
+        mainCamera = self.childNode(withName: "Main Camera") as? SKCameraNode!
+        
+    }
     
     func managePlayer() {
         if canMove {
             player?.movePlayer(moveLeft: moveLeft)
         }
+    }
+    
+    func moveCamera() {
+        self.mainCamera?.position.y -= 3
     }
     
 }
