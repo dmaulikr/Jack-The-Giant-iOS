@@ -12,6 +12,10 @@ class GameplayScene: SKScene {
     
     var mainCamera: SKCameraNode?
     
+    var bg1: BGClass?
+    var bg2: BGClass?
+    var bg3: BGClass?
+    
     var player: Player?
     
     var canMove = false
@@ -28,7 +32,7 @@ class GameplayScene: SKScene {
     override func update(_ currentTime: TimeInterval) {
         moveCamera()
         managePlayer()
-        
+        manageBackgrounds() 
         
     }
     
@@ -64,7 +68,16 @@ class GameplayScene: SKScene {
         
         mainCamera = self.childNode(withName: "Main Camera") as? SKCameraNode!
         
+        getBackgrounds()
+        
     }
+    
+    func getBackgrounds(){
+        bg1 = self.childNode(withName: "BG 1") as? BGClass!
+        bg2 = self.childNode(withName: "BG 2") as? BGClass!
+        bg3 = self.childNode(withName: "BG 3") as? BGClass!
+    }
+    
     
     func managePlayer() {
         if canMove {
@@ -74,6 +87,12 @@ class GameplayScene: SKScene {
     
     func moveCamera() {
         self.mainCamera?.position.y -= 3
+    }
+    
+    func manageBackgrounds() {
+        bg1?.moveBG(camera: mainCamera!)
+        bg2?.moveBG(camera: mainCamera!)
+        bg3?.moveBG(camera: mainCamera!)
     }
     
 }

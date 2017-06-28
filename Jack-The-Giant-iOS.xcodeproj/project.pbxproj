@@ -62,6 +62,7 @@
 		A7270FAF1EF7EF0900A45483 /* Player 7.png in Resources */ = {isa = PBXBuildFile; fileRef = A7270FA71EF7EF0900A45483 /* Player 7.png */; };
 		A7270FB01EF7EF0900A45483 /* Player 8.png in Resources */ = {isa = PBXBuildFile; fileRef = A7270FA81EF7EF0900A45483 /* Player 8.png */; };
 		A7270FB31EF7EFDB00A45483 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7270FB21EF7EFDB00A45483 /* Player.swift */; };
+		A7717B841F03CD8E00A1AF71 /* BGClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7717B831F03CD8E00A1AF71 /* BGClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +144,7 @@
 		A7270FA71EF7EF0900A45483 /* Player 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 7.png"; sourceTree = "<group>"; };
 		A7270FA81EF7EF0900A45483 /* Player 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 8.png"; sourceTree = "<group>"; };
 		A7270FB21EF7EFDB00A45483 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A7717B831F03CD8E00A1AF71 /* BGClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -360,6 +362,7 @@
 		A7270F981EF7ED2B00A45483 /* Game Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A7717B821F03CD5A00A1AF71 /* Background Class */,
 				A7270FB11EF7EFB500A45483 /* Player Class */,
 				A7270F991EF7ED6700A45483 /* Scene Classes */,
 			);
@@ -396,6 +399,14 @@
 				A7270FB21EF7EFDB00A45483 /* Player.swift */,
 			);
 			name = "Player Class";
+			sourceTree = "<group>";
+		};
+		A7717B821F03CD5A00A1AF71 /* Background Class */ = {
+			isa = PBXGroup;
+			children = (
+				A7717B831F03CD8E00A1AF71 /* BGClass.swift */,
+			);
+			name = "Background Class";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -585,6 +596,7 @@
 				A7270F1D1EF7299700A45483 /* GameViewController.swift in Sources */,
 				A7270FB31EF7EFDB00A45483 /* Player.swift in Sources */,
 				A7270F151EF7299700A45483 /* AppDelegate.swift in Sources */,
+				A7717B841F03CD8E00A1AF71 /* BGClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
